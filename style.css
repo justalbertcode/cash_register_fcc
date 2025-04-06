@@ -6,11 +6,12 @@
   
   :root {
     --light-gray: #dfdfe2;
-    --dark-blue: #0a0a23;
+    --dark-black: #000;
+    --yellow: rgb(241, 218, 7);
   }
   
   body {
-    background-color: var(--dark-blue);
+    background-color: var(--dark-black);
     color: var(--light-gray);
   }
   
@@ -62,7 +63,7 @@
   }
   
   .price-screen {
-    border: 10px solid #99c9ff;
+    border: 10px solid var(--yellow);
     background-color: black;
     height: 50px;
     width: 200px;
@@ -83,7 +84,7 @@
   
   .connector {
     margin-left: -20px;
-    background-color: #99c9ff;
+    background-color: var(--yellow);
     height: 30px;
     width: 40px;
   }
@@ -93,7 +94,7 @@
     justify-content: space-around;
     border-radius: 35px 35px 0 0;
     padding-top: 20px;
-    background-color: #99c9ff;
+    background-color: var(--yellow);
     height: 250px;
     width: 325px;
   }
@@ -118,7 +119,7 @@
     color: #0a0a23;
     font-size: 18px;
     font-weight: bold;
-    background-color: #feac32;
+    background-color: var(--yellow);
     background-image: linear-gradient(#fecc4c, #ffac33);
     border-color: #feac32;
     border-width: 3px;
@@ -134,7 +135,7 @@
   }
   
   .bottom-register {
-    background-color: #99c9ff;
+    background-color: var(--yellow);
     height: 50px;
     width: 325px;
     margin-top: 10px;
